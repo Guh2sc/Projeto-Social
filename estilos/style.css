@@ -1,1 +1,41 @@
 @charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-color: green;
+}
+body{
+    background: url(../pacote-d013/imagens/Fundo-2.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    height: 100vh;
+    position: relative;
+   
+}
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 491px;
+    width: 249px;
+    background-color: blue;
+    background: url(../pacote-d013/imagens/R.png) no-repeat;
+}
+iframe#tela{
+    position: relative;
+    top: 12px;
+    left: 19px;
+    width: 201px;
+    height: 435.5px;
+    border-radius: 13px;
+}
